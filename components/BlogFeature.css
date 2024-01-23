@@ -1,0 +1,9 @@
+span{
+    transition: 0.3s;
+    opacity: 0;
+    width: 0;
+}
+.readmore:hover span {
+    opacity:1;
+    width: 75%;
+}  
