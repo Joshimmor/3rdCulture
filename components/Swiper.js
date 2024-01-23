@@ -91,10 +91,10 @@ const Images = ({ imgIndex }) => {
     <div className="flex flex-row">
       {imgs.map((imgSrc, idx) => {
         return (
-        <div className="flex flex-row flex-grid-2 w-screen h-full justify-between">
+        <div className="flex flex-row flex-grid-2 w-screen h-full justify-between" key={idx}>
           <div className="flex  w-1/2 h-[50vh] justify-center items-center">
             <motion.div
-                key={idx}
+                
                 style={{
                 backgroundImage: `url(${imgSrc})`,
                 backgroundSize: "cover",
