@@ -31,7 +31,6 @@ export const SwipeCarousel = () => {
     .then(json => console.log(json.products))
     .catch(err => console.error(err))
   },[])
-  const dragX = useMotionValue(0);
 
   useEffect(() => {
     const intervalRef = setInterval(() => {
@@ -49,7 +48,7 @@ export const SwipeCarousel = () => {
 
     return () => clearInterval(intervalRef);
   }, []);
-
+  const dragX = useMotionValue(0);
   const onDragEnd = () => {
     const x = dragX.get();
 
