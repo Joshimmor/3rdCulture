@@ -26,7 +26,7 @@ export default function Home() {
         <div className="w-1/2 h-1/2 bg-slate-100 flex flex-row flex-grid-2">
           <div className="w-1/2 h-full bg-slate-900"
             style={{
-              backgroundImage:`url(ab2.jpg)`,
+              backgroundImage:'url(ab2.jpg)',
               backgroundSize:"cover"
             }}
           />
