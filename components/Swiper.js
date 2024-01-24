@@ -104,7 +104,7 @@ const Images = ({ imgIndex }) => {
                 scale: imgIndex === idx ? 0.95 : 0.85,
                 }}
                 transition={SPRING_OPTIONS}
-                className="aspect-video w-3/4 md:w-1/2 shrink-0 rounded-xl bg-neutral-800 object-cover flex items-end drop-shadow-2xl"
+                className="aspect-video w-3/4 md:w-1/2 shrink-0 rounded-md bg-neutral-800 object-cover flex items-end drop-shadow-2xl"
             ></motion.div>
           </div>
 

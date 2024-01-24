@@ -14,3 +14,7 @@
     font-family: var(--font-roboto-mono);
     font-size: 10vw;
 }
+.footer > h3:hover {
+    color: rgb(234 88 12 / var(--tw-bg-opacity));
+    cursor: pointer;
+}

@@ -40,7 +40,7 @@ export default function BlogFeature() {
             )
         })}
         <div className='flex flex-col justify-center items-center w-full  h-auto bg-gray-500  border border-slate-500 readmore'>
-            <h1 className='text-[10vw] md:text-[5vw] font-extrabold text-gray-400'>READ MORE 3rd CULTURE</h1>
+            <h1 className='text-[10vw] md:text-[5vw] font-extrabold text-gray-400'>READ MORE</h1>
             <span className='border-b-2 border-gray-400 mb-5'></span>
         </div>
     </div>
