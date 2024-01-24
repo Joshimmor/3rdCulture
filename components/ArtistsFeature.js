@@ -27,7 +27,7 @@ export const ArtistCarousel = () => {
   const [imgIndex, setImgIndex] = useState(0);
 
   const dragX = useMotionValue(0);
-  let scrollSize
+  //let scrollSize
   useEffect(() => {
     const intervalRef = setInterval(() => {
       const x = dragX.get();
@@ -44,7 +44,7 @@ export const ArtistCarousel = () => {
 
     return () => clearInterval(intervalRef);
   }, []);
-  scrollSize = window.innerWidth > 700 ? 10 : 100;
+  //scrollSize = window.innerWidth > 700 ? 10 : 100;
   const onDragEnd = () => {
     const x = dragX.get();
 
@@ -67,7 +67,7 @@ export const ArtistCarousel = () => {
           x: dragX,
         }}
         animate={{
-          translateX: `-${imgIndex * scrollSize}%`,
+          translateX: `-${imgIndex * 10}%`,
         }}
         transition={SPRING_OPTIONS}
         onDragEnd={onDragEnd}
